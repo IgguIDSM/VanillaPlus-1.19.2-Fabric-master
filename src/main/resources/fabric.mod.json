@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "vanillaplus",
+  "version": "${version}",
+
+  "name": "Vanilla+",
+  "description": "This Mod Focus in Making the Vanilla Experience Better, With Machines, Energy, Mobs, Gear, Structures, All With the Vanilla Look",
+  "authors": [
+    "KssK"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "All Rights Reserved",
+  "icon": "",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.KssK.vanillaplus.VanillaPlus"
+    ],
+    "client":[
+      "net.KssK.vanillaplus.VanillaPlusClient"
+    ]
+  },
+  "mixins": [
+    "vanillaplus.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.10",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

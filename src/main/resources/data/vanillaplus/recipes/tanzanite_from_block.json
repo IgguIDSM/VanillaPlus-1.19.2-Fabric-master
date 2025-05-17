@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "vanillaplus:tanzanite_block"
+    }
+  ],
+  "result": {
+    "item": "vanillaplus:tanzanite_block"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.4,
+  "group": "tanzanite",
+  "ingredient": {
+    "item": "vanillaplus:raw_tanzanite"
+  },
+  "result": "vanillaplus:tanzanite"
+}
